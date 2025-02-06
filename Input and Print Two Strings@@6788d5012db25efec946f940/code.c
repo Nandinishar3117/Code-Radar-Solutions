@@ -9,5 +9,5 @@ int main() {
     char b;
     scanf("%s",&a);
     scanf("%s",&b);
-    print("You entered: %s",a,b);
+    printf("You entered: %s",a,b);
 }

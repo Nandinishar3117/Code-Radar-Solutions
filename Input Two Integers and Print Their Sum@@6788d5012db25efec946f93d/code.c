@@ -11,5 +11,5 @@ int main() {
     printf("%d",a);
     printf("%d",b);
     scanf("%d",&c);
-    print("%d",c);
+    printf("%d",c);
     }

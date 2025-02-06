@@ -13,6 +13,6 @@ int main() {
     printf("True\n");
 
    }else{
-    print("False");
+    printf("False");
    }
 }

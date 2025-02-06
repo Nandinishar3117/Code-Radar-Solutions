@@ -9,10 +9,10 @@ int main() {
     char c[100];
     int age;
     char hobby[100];
-    scanf("%c",&c);
+    scanf("%s",&c);
     scanf("%d",&age);
-    scanf("%c",&hobby);
-    printf("Name: %c",c);
+    scanf("%s",&hobby);
+    printf("Name: %s",c);
     printf("Age: %d",age);
-    printf("Age: %d",hobby);
+    printf("Hobby: %s",hobby);
 }

@@ -10,9 +10,9 @@ int main() {
     scanf("%d %d",&a,&b);
    
     if (a!=0 && a<0 ) {
-     printf("True");
+        printf("True");
    }
     else{
-     printf("False");
+        printf("False");
    }
 }

@@ -9,5 +9,5 @@ int main() {
     float pi=3.14;
     
     scanf("%f",&radius);
-    printf("Area: %.2f",pi*2*radius);
+    printf("Area: %.2f",pi*radius*radius);
 }

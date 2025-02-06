@@ -12,7 +12,7 @@ int main() {
     scanf("%s",&c);
     scanf("%d",&age);
     scanf("%s",&hobby);
-    printf("Name: %s",c);
-    printf("Age: %d",age);
+    printf("Name: %s \n",c);
+    printf("Age: %d \n",age);
     printf("Hobby: %s",hobby);
 }

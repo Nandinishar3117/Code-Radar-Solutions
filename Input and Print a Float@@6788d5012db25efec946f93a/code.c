@@ -2,7 +2,8 @@
 
 char* welcome() {
     float f;
-    scanf("%f",f);
+    scanf("%f",&f);
+    printf("%f",f)
 }
 
 int main() {

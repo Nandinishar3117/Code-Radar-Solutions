@@ -12,7 +12,7 @@ int main() {
     if (a!=0 && a<0 ) {
      printf("True");
    }
-    else{
+    else if (a>0){
      printf("False");
    }
 }

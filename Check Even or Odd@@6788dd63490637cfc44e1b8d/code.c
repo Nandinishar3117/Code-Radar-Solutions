@@ -8,9 +8,9 @@ int main() {
     int a;
     scanf("%d",a);
     if (a%2==0){
-        printf("True")
+        printf("True");
     }else{
-        printf("False")
+        printf("False");
     }
     
 }

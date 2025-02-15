@@ -7,10 +7,10 @@ char* welcome() {
 int main() {
     int a;
     scanf("%d",a);
-    if(int a%2==0){
-        printf("True");
+    if(int a %2==0){
+        printf("Even");
     }else if {
-        printf("False");
+        printf("Odd");
     }
     
 }

@@ -11,7 +11,7 @@ int main(){
     scanf("%d",&c);
         if (a==b==c  ){
         printf("Equilateral");}
-        else if  (a==b<c ) {
+        else if  (a==b && c>b && c>a ) {
         printf("Iscosceles");
     }
    

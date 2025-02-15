@@ -12,11 +12,11 @@ int main(){
         else if  (a >= 80&& a<90') {
         printf("B");
     }
-        }
+        
          else if ((a >= 70 && a <80) ) {
         printf("C");
     }
-    els if(a>=60) {
+    else if(a>=60 and a<70) {
 printf("D")    }
    
      else  {

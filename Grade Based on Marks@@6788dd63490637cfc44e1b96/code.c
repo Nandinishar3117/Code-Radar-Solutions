@@ -1,13 +1,13 @@
 int main(){
-    char a;
+    int a;
    
 
     
-    scanf("%c",&a);
+    scanf("%d",&a);
     
    
    
-        if (a>90  ){
+        if (a>=90  ){
         printf("A");}
         else if  (a >= 80&& a<90') {
         printf("B");

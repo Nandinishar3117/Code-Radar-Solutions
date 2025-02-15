@@ -11,7 +11,7 @@ int main(){
     
     scanf("%d",&c);
    
-        if ((a+b>=c )|| (b+c>=a) || (a+c>=b)){
+        if ((a+b>c )|| (b+c>a) || (a+c>b)){
         printf("Valid");}
         else if(a+b==c) {
             printf("Invalid");

@@ -9,7 +9,7 @@ int main() {
     scanf("%d",a);
     if(int a%2==0){
         printf("True");
-    }else{
+    }else if {
         printf("False");
     }
     

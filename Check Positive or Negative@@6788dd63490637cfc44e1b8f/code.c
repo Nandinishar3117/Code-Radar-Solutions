@@ -5,11 +5,11 @@ int main(){
     scanf(%d,&a);
     scanf(%d,&b);
     if (a>0){
-        printf("Posiive");}
+        printf("%d","Posiive");}
     else if (a<0){
 
     
-        printf(Negative);
+        printf("Negative");
     }
     else if(a==0){
         printf("Zero");

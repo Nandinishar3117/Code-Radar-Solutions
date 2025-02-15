@@ -6,7 +6,7 @@ int main(){
     scanf("%d",&a);
        
     scanf("%d",&b);
-        if(a>=0 && a<=100) {
+        if(a>0 && a<=100) {
         printf("In Range");}
     
      else  {

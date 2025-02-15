@@ -11,7 +11,7 @@ int main(){
     
     scanf("%d",&c);
    
-        if ((a+b+c)/3==0){
+        if ((a+b)>c || (b+c)>a || (a+c)>b){
         printf("Valid");}
         else  {
             printf("Invalid");

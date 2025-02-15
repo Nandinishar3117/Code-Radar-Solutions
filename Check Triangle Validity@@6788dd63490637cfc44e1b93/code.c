@@ -11,9 +11,9 @@ int main(){
     
     scanf("%d",&c);
    
-        if ((a+b>=c )|| (b+c>=a) || (a+c>=b) || (a+b!=c)){
+        if ((a+b>=c )|| (b+c>=a) || (a+c>=b)){
         printf("Valid");}
-        else  {
+        else if( a+b==c) {
             printf("Invalid");
         }
    

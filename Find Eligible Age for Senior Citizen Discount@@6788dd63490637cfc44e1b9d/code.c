@@ -6,7 +6,7 @@ int main(){
     scanf("%d",&a);
        
     scanf("%d",&b);
-        if (a>=65  ){
+        if (a>=60  ){
         printf("Eligible");}
     
    

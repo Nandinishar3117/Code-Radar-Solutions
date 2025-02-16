@@ -19,6 +19,13 @@ int main(){
         printf("Thursday\n");
         return 0;
     }
+    else if(a==5){
+        printf("Friday")
+    }
+     else if(a==6){
+        printf("Saturday")
+    }
+
     else{
         printf("Invalid");
     }

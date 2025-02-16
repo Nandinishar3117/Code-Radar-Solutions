@@ -2,21 +2,21 @@
 int main(){
     int a; 
     int b;
-    char c;
+    char m;
 
-    scanf("%d",&a);
+    scanf("%c",&m);
     scanf("%d",&a);   
     scanf("%d",&b);
-        if (c=='-' ){
+        if (m=='-' ){
         printf("%d",a-b);}
-        else if (c=='+'){
+        else if (m=='+'){
         printf("%d",a+b);
        
     }
  
-        else if (c=='*' ){
+        else if (m=='*' ){
         printf("%d",a*b);}
-        else if (c=='/') {
+        else if (m=='/') {
         printf("%d\n",a/b);
         return 0;
     }

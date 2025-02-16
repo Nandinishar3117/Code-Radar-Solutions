@@ -20,10 +20,10 @@ int main(){
         return 0;
     }
     else if(a==5){
-        printf("Friday")
+        printf("Friday");
     }
      else if(a==6){
-        printf("Saturday")
+        printf("Saturday");
     }
 
     else{

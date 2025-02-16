@@ -2,33 +2,25 @@
 int main(){
     int a; 
     int b;
+    char c;
 
     scanf("%d",&a);
-       
+    scanf("%d",&a);   
     scanf("%d",&b);
-        if (a=='-' ){
+        if (c=='-' ){
         printf("%d",a-b);}
-        else if (a==2){
-        printf("Tuesday");
+        else if (c=='+'){
+        printf("%d",a+b);
        
     }
  
-        else if (a==3 ){
-        printf("Wednesday");}
-        else if (a==4) {
-        printf("Thursday\n");
+        else if (c=='*' ){
+        printf("%d",a*b);}
+        else if (c=='/') {
+        printf("%d\n",a/b);
         return 0;
     }
-    else if(a==5){
-        printf("Friday");
-    }
-     else if(a==7){
-        printf("Sunday");
-    }
-
-    else{
-        printf("Invalid");
-    }
+   
  
 }
  

@@ -8,9 +8,9 @@ int main(){
     scanf("%d",&b);
         if (a%3==1  || a%5==1 || a%2==1 || a%7==1 ){
         printf("Prime");}
-     
-     else  {
-            printf("Not Prime");
-        
-     }
+        else if (a <= 1) {
+        printf("Not Prime\n");
+        return 0;
+    }
+ 
 }

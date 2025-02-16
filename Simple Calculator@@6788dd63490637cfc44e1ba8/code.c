@@ -6,8 +6,8 @@ int main(){
     scanf("%d",&a);
        
     scanf("%d",&b);
-        if (a=='+' ){
-        printf("%d",a+b);}
+        if (a=='-' ){
+        printf("%d",a-b);}
         else if (a==2){
         printf("Tuesday");
        

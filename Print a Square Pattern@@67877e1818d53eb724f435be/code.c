@@ -5,7 +5,7 @@ int main() {
 
     // Taking user input
     printf(" ");
-    scanf("%d", &n);
+    scanf("%d",&n);
 
     // Generating the square pattern
     for (int i = 1; i <= n; i++) {

@@ -4,7 +4,7 @@ int main() {
     int n;
 
     // Taking user input
-    printf(" ");
+    printf("");
     scanf("%d", &n);
 
     // Generating the hollow square pattern

@@ -4,7 +4,7 @@ int main() {
     int n;
 
     // Taking user input
-    printf("Enter the number of rows: ");
+    printf(" ");
     scanf("%d", &n);
 
     // Generating the pyramid pattern
@@ -15,7 +15,7 @@ int main() {
         }
         // Printing stars
         for (int k = 1; k <= 2 * i - 1; k++) {
-            printf("* \n");
+            printf("*");
         }
         printf("\n");  // Move to the next line after printing a row
     }

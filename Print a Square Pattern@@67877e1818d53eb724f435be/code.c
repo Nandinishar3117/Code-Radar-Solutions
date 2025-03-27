@@ -4,7 +4,7 @@ int main() {
     int n;
 
     // Taking user input
-    printf("Enter the size of the square: ");
+    printf(" ");
     scanf("%d", &n);
 
     // Generating the square pattern

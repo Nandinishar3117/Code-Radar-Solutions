@@ -4,7 +4,7 @@ int main() {
     int n;
 
     // Taking user input
-    printf("Enter the number of rows: ");
+    printf("");
     scanf("%d", &n);
 
     // Generating the mirrored right-angled triangle
